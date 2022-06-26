@@ -93,7 +93,7 @@ DATABASES = {
             'NAME': 'DjangoDB',
             'ENFORCE_SCHEMA': False,
             'CLIENT': {
-                'host': 'mongodb+srv://root:123@djangodb.ihpth.mongodb.net/?retryWrites=true&w=majority'
+                'host': 'mongodb+srv://root:<password>@djangodb.ihpth.mongodb.net/?retryWrites=true&w=majority'
             }
         }
 }
