@@ -10,6 +10,7 @@ class HeroViewSet (viewsets.ModelViewSet):
     queryset = Hero.objects.all().order_by('name')
     serializer_class = HeroSerializer
 
+
 # def front(request):
 #     context = { }
 #     return render(request, "index.html", context)
